@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    float x, y, yy;
+    float x, y;
     cin >> x >> y;
     if (x < 0)
     {
@@ -14,8 +14,7 @@ int main()
     {
         y = y * -1;
     }
-    yy = x - y;
-    if ((x + yy >= 1) and ((sqrt(x * x + y * y)) <= 1))
+    if ((x + y >= 1) and ((sqrt(x * x + y * y)) <= 1))
     {
         cout << "t";
     }
